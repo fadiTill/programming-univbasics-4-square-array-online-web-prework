@@ -1,10 +1,8 @@
-def square_array(array)
-  def output_array_elements(array)
+def square_array(1,2,3,4)
   counter = 0
  
-  while array[counter] do
-    puts array[counter]
+  while square_array[counter] do
+    puts square_array ^ [counter]
     counter += 1
   end
-end
 end
